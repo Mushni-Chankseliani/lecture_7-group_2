@@ -1,0 +1,96 @@
+.section-1-img {
+	width: 1400px;
+	height: 300px;
+
+	object-fit: cover;
+}
+
+/*section 2 start*/
+
+.bg-image {
+	background-image: url("https://www.w3schools.com/w3images/photographer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 1170px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: white;
+	font-size: 32px;
+}
+/*section 2 end*/
+
+/*section 3 start*/
+.first-p {
+	font-size: 32px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.first-p::first-letter {
+	font-size: 50px;
+	color: green;
+}
+
+.first-p::after {
+	content: "\270C";
+	font-size: 32px;
+	margin-left: 15px;
+}
+
+.line::before {
+	/*content: url("https://www.w3schools.com/css/smiley.gif");*/
+	content: "";
+	width: 3px;
+	height: 26px;
+	margin: 0 15px;
+	background-color: red;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.second-p {
+	font-size: 32px;
+	display: inline-block;
+	vertical-align: middle;
+
+}
+/*section 3 end*/
+
+/*section 4 start*/
+
+.flex-container {
+	width: 1170px;
+	height: 500px;
+	margin: 0 auto;
+	border: 1px solid black;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-item-1 {
+	background-color: red;
+	width: 100px;
+	height: 50px;
+}
+.flex-item-2 {
+	background-color: green;
+	width: 100px;
+	height: 250px;
+}
+.flex-item-3 {
+	background-color: yellow;
+	width: 100px;
+	height: 100px;
+}
+.flex-item-4 {
+	background-color: pink;
+	width: 100px;
+	height: 200px;
+}
+/*section 4 end*/
